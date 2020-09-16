@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root{
+      --mainGreen:  rgba(62, 86, 65, 0.85);
+      --main-yellow: #f5a614;
+      --hazyWhite:  rgba(253, 255, 252, 0.88);
+      --mainFont: 'Merriweather', serif;
+      --headingFont: "Oswald", sans-serif;
+      --accentFont: 'Cardo', serif;
+  }
+body{
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    background-image:url("./mountains.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100vh;
+
+}
+header{
+    padding: 20px;
+    font-family: var(--headingFont);
+    width: 100%;
+    background-color:var(--mainGreen);
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+h1,h2 {
+    font-family: var(--headingFont);
+}
+section#main-info{
+    background-color:var(--hazyWhite);
+    padding: 20px;
+    max-width: 60ch;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 10% auto;
+}
+#main-info h2{
+    margin-bottom: 1rem;
+}
+#closed-info p{
+    font-family: var(--mainFont);
+    margin-bottom: 1rem;
+}
+a#email-button{
+    font-family: var(--headingFont);
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: var(--main-yellow);
+    color: white;
+    text-shadow: 2px 1px 2px #000;
+    padding: 10px 20px;
+}
+a#email-button:hover{
+    text-decoration: underline;
+}
