@@ -1,3 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
-     alert("Hello! I am from TimberChiropractic");
-   });
+// document.addEventListener('DOMContentLoaded', function () {
+//     console.log('from timberchiropractic.com')
+//      alert("Hello! I am from TimberChiropractic");
+//    });
